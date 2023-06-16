@@ -16,7 +16,7 @@ architecture Behavioral_TB of Register_file_TB is
     	signal X:  std_logic_vector(1 downto 0);
     	signal Y:  std_logic_vector(1 downto 0);
     	signal D:  std_logic_vector(15 downto 0);
-    	signal Q11:  std_logic_vector(15 downto 0);   
+    	signal Q11:  std_logic_vector(15 downto 0);
     	signal Q22:  std_logic_vector(15 downto 0);
 
  component Register_File 
