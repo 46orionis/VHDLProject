@@ -1,0 +1,248 @@
+C:/modeltech64_2020.4/examples/VHDLProject/mux2_16_TB.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none C:/modeltech64_2020.4/examples/VHDLProject/mux2_16_TB.vhd
+Model Technology ModelSim SE-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity mux2_16_tb
+-- Compiling architecture Behavioral of mux2_16_tb
+
+} {} {}} C:/modeltech64_2020.4/examples/VHDLProject/ALU_TB.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none C:/modeltech64_2020.4/examples/VHDLProject/ALU_TB.vhd
+Model Technology ModelSim SE-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity alu_16_tb
+-- Compiling architecture Behavioral_ALU_TB of alu_16_tb
+
+} {} {}} C:/modeltech64_2020.4/examples/VHDLProject/mux2_8_TB.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none C:/modeltech64_2020.4/examples/VHDLProject/mux2_8_TB.vhd
+Model Technology ModelSim SE-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity mux2_8_tb
+-- Compiling architecture Behavioral of mux2_8_tb
+
+} {} {}} C:/modeltech64_2020.4/examples/VHDLProject/counter.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none C:/modeltech64_2020.4/examples/VHDLProject/counter.vhd
+Model Technology ModelSim SE-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity counterR
+-- Compiling architecture benschR of counterR
+
+} {} {}} C:/modeltech64_2020.4/examples/VHDLProject/Register_file_TB.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none C:/modeltech64_2020.4/examples/VHDLProject/Register_file_TB.vhd
+Model Technology ModelSim SE-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity Register_file_TB
+-- Compiling architecture Behavioral_TB of Register_file_TB
+
+} {} {}} C:/modeltech64_2020.4/examples/VHDLProject/Memory.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none C:/modeltech64_2020.4/examples/VHDLProject/Memory.vhd
+Model Technology ModelSim SE-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity Memory
+-- Compiling architecture behaviour_Memory of Memory
+
+} {} {}} C:/modeltech64_2020.4/examples/VHDLProject/mux2_16.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none C:/modeltech64_2020.4/examples/VHDLProject/mux2_16.vhd
+Model Technology ModelSim SE-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity mux2_16
+-- Compiling architecture Behavioral of mux2_16
+
+} {} {}} C:/modeltech64_2020.4/examples/VHDLProject/ALU.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none C:/modeltech64_2020.4/examples/VHDLProject/ALU.vhd
+Model Technology ModelSim SE-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity ALU
+-- Compiling architecture Behavioral of ALU
+
+} {} {}} C:/modeltech64_2020.4/examples/VHDLProject/Instruction_Register_TB.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none C:/modeltech64_2020.4/examples/VHDLProject/Instruction_Register_TB.vhd
+Model Technology ModelSim SE-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity instruction_register_tb
+-- Compiling architecture Behavioral of instruction_register_tb
+
+} {} {}} C:/modeltech64_2020.4/examples/VHDLProject/data_path_TB.vhd {0 {vcom -work work -2002 -explicit -vopt -stats=none C:/modeltech64_2020.4/examples/VHDLProject/data_path_TB.vhd
+Model Technology ModelSim SE-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
+-- Loading package STANDARD
+** Error: C:/modeltech64_2020.4/examples/VHDLProject/data_path_TB.vhd(2): near "VDS": syntax error
+
+} {4.0 5.0} {}} C:/modeltech64_2020.4/examples/VHDLProject/Register_file.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none C:/modeltech64_2020.4/examples/VHDLProject/Register_file.vhd
+Model Technology ModelSim SE-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity Register_File
+-- Compiling architecture Behavioral of Register_File
+
+} {} {}} C:/modeltech64_2020.4/examples/VHDLProject/CU_TB.vhd {0 {vcom -work work -2002 -explicit -vopt -stats=none C:/modeltech64_2020.4/examples/VHDLProject/CU_TB.vhd
+Model Technology ModelSim SE-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
+-- Loading package STANDARD
+** Error: C:/modeltech64_2020.4/examples/VHDLProject/CU_TB.vhd(1): near "V": syntax error
+
+} {4.0 5.0} {}} C:/modeltech64_2020.4/examples/VHDLProject/register_16bits.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none C:/modeltech64_2020.4/examples/VHDLProject/register_16bits.vhd
+Model Technology ModelSim SE-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity Register_16bit
+-- Compiling architecture BehavioralRegistre of Register_16bit
+
+} {} {}} C:/modeltech64_2020.4/examples/VHDLProject/data_Path.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none C:/modeltech64_2020.4/examples/VHDLProject/data_Path.vhd
+Model Technology ModelSim SE-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity datapath
+-- Compiling architecture Behavioral of datapath
+
+} {} {}} C:/modeltech64_2020.4/examples/VHDLProject/Instruction_Register.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none C:/modeltech64_2020.4/examples/VHDLProject/Instruction_Register.vhd
+Model Technology ModelSim SE-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity instruction_register
+-- Compiling architecture Behavioral of instruction_register
+
+} {} {}} C:/modeltech64_2020.4/examples/VHDLProject/memory_TB.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none C:/modeltech64_2020.4/examples/VHDLProject/memory_TB.vhd
+Model Technology ModelSim SE-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity testMemo
+-- Compiling architecture behave of testMemo
+
+} {} {}} C:/modeltech64_2020.4/examples/VHDLProject/D_FF.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none C:/modeltech64_2020.4/examples/VHDLProject/D_FF.vhd
+Model Technology ModelSim SE-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity D_FF
+-- Compiling architecture Behavioral of D_FF
+
+} {} {}} C:/modeltech64_2020.4/examples/VHDLProject/Mp_rom_TB.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none C:/modeltech64_2020.4/examples/VHDLProject/Mp_rom_TB.vhd
+Model Technology ModelSim SE-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity testMemo
+-- Compiling architecture behave of testMemo
+
+} {} {}} C:/modeltech64_2020.4/examples/VHDLProject/CU.vhd {0 {vcom -work work -2002 -explicit -vopt -stats=none C:/modeltech64_2020.4/examples/VHDLProject/CU.vhd
+Model Technology ModelSim SE-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity CU
+-- Compiling architecture behaviourCU of CU
+** Error: C:/modeltech64_2020.4/examples/VHDLProject/CU.vhd(26): (vcom-1294) Declaration with designator "controle" already exists in this region.
+** =====> Prior declaration of "controle" is at C:/modeltech64_2020.4/examples/VHDLProject/CU.vhd(11).
+** Error: C:/modeltech64_2020.4/examples/VHDLProject/CU.vhd(40): Illegal target for signal assignment.
+** Error: C:/modeltech64_2020.4/examples/VHDLProject/CU.vhd(40): (vcom-1136) Unknown identifier "RFxy".
+** Error: C:/modeltech64_2020.4/examples/VHDLProject/CU.vhd(42): Illegal target for signal assignment.
+** Error: C:/modeltech64_2020.4/examples/VHDLProject/CU.vhd(42): (vcom-1136) Unknown identifier "RFw".
+** Error: C:/modeltech64_2020.4/examples/VHDLProject/CU.vhd(44): Illegal target for signal assignment.
+** Error: C:/modeltech64_2020.4/examples/VHDLProject/CU.vhd(44): (vcom-1136) Unknown identifier "RFsrc".
+** Error: C:/modeltech64_2020.4/examples/VHDLProject/CU.vhd(46): Illegal target for signal assignment.
+** Error: C:/modeltech64_2020.4/examples/VHDLProject/CU.vhd(46): (vcom-1136) Unknown identifier "DRsrc".
+** Error: C:/modeltech64_2020.4/examples/VHDLProject/CU.vhd(48): Illegal target for signal assignment.
+** Error: C:/modeltech64_2020.4/examples/VHDLProject/CU.vhd(48): (vcom-1136) Unknown identifier "DRw".
+** Error: C:/modeltech64_2020.4/examples/VHDLProject/CU.vhd(50): Illegal target for signal assignment.
+** Error: C:/modeltech64_2020.4/examples/VHDLProject/CU.vhd(50): (vcom-1136) Unknown identifier "IRw".
+** Error: C:/modeltech64_2020.4/examples/VHDLProject/CU.vhd(52): Illegal target for signal assignment.
+** Error: C:/modeltech64_2020.4/examples/VHDLProject/CU.vhd(52): (vcom-1136) Unknown identifier "PCw".
+** Error: C:/modeltech64_2020.4/examples/VHDLProject/CU.vhd(54): Illegal target for signal assignment.
+** Error: C:/modeltech64_2020.4/examples/VHDLProject/CU.vhd(54): (vcom-1136) Unknown identifier "StrM".
+** Error: C:/modeltech64_2020.4/examples/VHDLProject/CU.vhd(56): Illegal target for signal assignment.
+** Error: C:/modeltech64_2020.4/examples/VHDLProject/CU.vhd(56): (vcom-1136) Unknown identifier "ARw".
+** Error: C:/modeltech64_2020.4/examples/VHDLProject/CU.vhd(58): Illegal target for signal assignment.
+** Error: C:/modeltech64_2020.4/examples/VHDLProject/CU.vhd(58): (vcom-1136) Unknown identifier "CD".
+** Error: C:/modeltech64_2020.4/examples/VHDLProject/CU.vhd(60): Illegal target for signal assignment.
+** Error: C:/modeltech64_2020.4/examples/VHDLProject/CU.vhd(60): (vcom-1136) Unknown identifier "BR".
+** Error: C:/modeltech64_2020.4/examples/VHDLProject/CU.vhd(62): Illegal target for signal assignment.
+** Error: C:/modeltech64_2020.4/examples/VHDLProject/CU.vhd(62): (vcom-1136) Unknown identifier "AD".
+** Note: C:/modeltech64_2020.4/examples/VHDLProject/CU.vhd(69): VHDL Compiler exiting
+
+} {8.0 9.0 10.0 34.0} {}} C:/modeltech64_2020.4/examples/VHDLProject/Mp_rom.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none C:/modeltech64_2020.4/examples/VHDLProject/Mp_rom.vhd
+Model Technology ModelSim SE-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity MP_ROM
+-- Compiling architecture behaviour_MP_ROM of MP_ROM
+
+} {} {}} C:/modeltech64_2020.4/examples/VHDLProject/register_16bits_TB.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none C:/modeltech64_2020.4/examples/VHDLProject/register_16bits_TB.vhd
+Model Technology ModelSim SE-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity Register_16bit_TB
+-- Compiling architecture Behavioral of Register_16bit_TB
+-- Loading entity Register_16bit
+
+} {} {}} C:/modeltech64_2020.4/examples/VHDLProject/adress_register_TB.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none C:/modeltech64_2020.4/examples/VHDLProject/adress_register_TB.vhd
+Model Technology ModelSim SE-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity control_address_register_tb
+-- Compiling architecture Behavioral of control_address_register_tb
+
+} {} {}} C:/modeltech64_2020.4/examples/VHDLProject/mux2_8.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none C:/modeltech64_2020.4/examples/VHDLProject/mux2_8.vhd
+Model Technology ModelSim SE-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity mux2_8
+-- Compiling architecture Behavioral of mux2_8
+
+} {} {}} C:/modeltech64_2020.4/examples/VHDLProject/D_FF_TB.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none C:/modeltech64_2020.4/examples/VHDLProject/D_FF_TB.vhd
+Model Technology ModelSim SE-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity D_FF_TB
+-- Compiling architecture Behavioral of D_FF_TB
+
+} {} {}} C:/modeltech64_2020.4/examples/VHDLProject/Counter_TB.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none C:/modeltech64_2020.4/examples/VHDLProject/Counter_TB.vhd
+Model Technology ModelSim SE-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity tb_count_rst
+-- Compiling architecture arc_rst of tb_count_rst
+
+} {} {}} C:/modeltech64_2020.4/examples/VHDLProject/adress_register.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none C:/modeltech64_2020.4/examples/VHDLProject/adress_register.vhd
+Model Technology ModelSim SE-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity address_register
+-- Compiling architecture Behavioral of address_register
+
+} {} {}}
