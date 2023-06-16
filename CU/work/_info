@@ -1,0 +1,378 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/modeltech64_10.6d/examples/VHDLProject/CU
+T_opt
+!s110 1686957672
+VQDNj414NDk;S4SlIPad2C1
+04 14 10 work controlunit_tb behavioral 1
+=1-54ee758be535-648cee67-387-3470
+o-quiet -auto_acc_if_foreign -work work +acc
+tCvgOpt 0
+n@_opt
+OL;O;10.6d;65
+Eandnotgate
+Z1 w1686953886
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z4 8C:/modeltech64_10.6d/examples/VHDLProject/CU/and_not_gate.vhd
+Z5 FC:/modeltech64_10.6d/examples/VHDLProject/CU/and_not_gate.vhd
+l0
+L4
+Vo5RBQFRcjcmhd:P8PoHD?0
+!s100 KY:bI>mW@>eilEIH5j]EX3
+Z6 OL;C;10.6d;65
+32
+Z7 !s110 1686957653
+!i10b 1
+Z8 !s108 1686957653.000000
+Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|C:/modeltech64_10.6d/examples/VHDLProject/CU/and_not_gate.vhd|
+Z10 !s107 C:/modeltech64_10.6d/examples/VHDLProject/CU/and_not_gate.vhd|
+!i113 0
+Z11 o-work work -2002 -explicit
+Z12 tExplicit 1 CvgOpt 0
+Abehavioral
+R2
+R3
+DEx4 work 10 andnotgate 0 22 o5RBQFRcjcmhd:P8PoHD?0
+l13
+L12
+V3L`0<H=9K`EKPGL2z_1mI2
+!s100 m6FOzZ`^cBU^]JIQlaFYN1
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 0
+R11
+R12
+Econtrolunit
+Z13 w1686956228
+R2
+R3
+R0
+Z14 8C:/modeltech64_10.6d/examples/VHDLProject/CU/CU.vhd
+Z15 FC:/modeltech64_10.6d/examples/VHDLProject/CU/CU.vhd
+l0
+L4
+V8Y`7jOXVb7fe2>FTWRz4z1
+!s100 0OSDk3:oh`0GU103KI[921
+R6
+32
+Z16 !s110 1686957652
+!i10b 1
+Z17 !s108 1686957652.000000
+Z18 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|C:/modeltech64_10.6d/examples/VHDLProject/CU/CU.vhd|
+Z19 !s107 C:/modeltech64_10.6d/examples/VHDLProject/CU/CU.vhd|
+!i113 0
+R11
+R12
+Abehavioral
+R2
+R3
+DEx4 work 11 controlunit 0 22 8Y`7jOXVb7fe2>FTWRz4z1
+l96
+L22
+VUI2]ggVK]5G^8E4?8]A3m1
+!s100 mN]8CSV>;``Y51K@Q7YVm3
+R6
+32
+R16
+!i10b 1
+R17
+R18
+R19
+!i113 0
+R11
+R12
+Econtrolunit_tb
+Z20 w1686955347
+R2
+R3
+R0
+Z21 8C:/modeltech64_10.6d/examples/VHDLProject/CU/CU_TB.vhd
+Z22 FC:/modeltech64_10.6d/examples/VHDLProject/CU/CU_TB.vhd
+l0
+L4
+V^:[1R?4IW<i6Fjk=4zSoR3
+!s100 A^RclOei7A:1??2>Dd6Y81
+R6
+32
+R7
+!i10b 1
+R8
+Z23 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|C:/modeltech64_10.6d/examples/VHDLProject/CU/CU_TB.vhd|
+Z24 !s107 C:/modeltech64_10.6d/examples/VHDLProject/CU/CU_TB.vhd|
+!i113 0
+R11
+R12
+Abehavioral
+R2
+R3
+DEx4 work 14 controlunit_tb 0 22 ^:[1R?4IW<i6Fjk=4zSoR3
+l41
+L7
+VokAQ]dRSzmm@<k6F`F75:0
+!s100 CZ^d2H^aaJjTV6`L[C1kB1
+R6
+32
+R7
+!i10b 1
+R8
+R23
+R24
+!i113 0
+R11
+R12
+Ecsr
+Z25 w1686957625
+R2
+R3
+R0
+Z26 8C:/modeltech64_10.6d/examples/VHDLProject/CU/CSR.vhd
+Z27 FC:/modeltech64_10.6d/examples/VHDLProject/CU/CSR.vhd
+l0
+L4
+VcBWZ:=Ml[oRz4;NK[g_MO0
+!s100 LIoQj@ka_EzP`hzFkYZ2X0
+R6
+32
+R7
+!i10b 1
+R8
+Z28 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|C:/modeltech64_10.6d/examples/VHDLProject/CU/CSR.vhd|
+Z29 !s107 C:/modeltech64_10.6d/examples/VHDLProject/CU/CSR.vhd|
+!i113 0
+R11
+R12
+Abehavioralregistre
+R2
+R3
+DEx4 work 3 csr 0 22 cBWZ:=Ml[oRz4;NK[g_MO0
+l35
+L24
+V4M1]JOj8lL^=G9`aj1mAa1
+!s100 Hbh>ZWNH@dhLNOL5QB=jW3
+R6
+32
+R7
+!i10b 1
+R8
+R28
+R29
+!i113 0
+R11
+R12
+Ed_ff
+Z30 w1686934048
+R2
+R3
+R0
+Z31 8C:/modeltech64_10.6d/examples/VHDLProject/CU/D_FF_CSR.vhd
+Z32 FC:/modeltech64_10.6d/examples/VHDLProject/CU/D_FF_CSR.vhd
+l0
+L5
+V2Y1Z9ebnZ1>K3[PePURK?1
+!s100 HEZTmn1F1]0L744A:XG;o2
+R6
+32
+R7
+!i10b 1
+R8
+Z33 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|C:/modeltech64_10.6d/examples/VHDLProject/CU/D_FF_CSR.vhd|
+Z34 !s107 C:/modeltech64_10.6d/examples/VHDLProject/CU/D_FF_CSR.vhd|
+!i113 0
+R11
+R12
+Abehavioral
+R2
+R3
+DEx4 work 4 d_ff 0 22 2Y1Z9ebnZ1>K3[PePURK?1
+l14
+L13
+VOPmZDI<5z`k8a7[VI>oMZ0
+!s100 EY`i<iU]SBe`PPIOOXz2L0
+R6
+32
+R7
+!i10b 1
+R8
+R33
+R34
+!i113 0
+R11
+R12
+Emapper
+Z35 w1686931611
+R2
+R3
+R0
+Z36 8C:/modeltech64_10.6d/examples/VHDLProject/CU/Mapper.vhd
+Z37 FC:/modeltech64_10.6d/examples/VHDLProject/CU/Mapper.vhd
+l0
+L4
+V=?HbMXibGoCRgal5zo^J90
+!s100 PQPod7_W>_=g2GJZlH>Ff0
+R6
+32
+R16
+!i10b 1
+R17
+Z38 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|C:/modeltech64_10.6d/examples/VHDLProject/CU/Mapper.vhd|
+Z39 !s107 C:/modeltech64_10.6d/examples/VHDLProject/CU/Mapper.vhd|
+!i113 0
+R11
+R12
+Abehavioral
+R2
+R3
+DEx4 work 6 mapper 0 22 =?HbMXibGoCRgal5zo^J90
+l12
+L11
+V;4J4J4VzQ<IGDU6S[_gLS1
+!s100 ?RN@nl3^X>]S=?iE0n9XA3
+R6
+32
+R16
+!i10b 1
+R17
+R38
+R39
+!i113 0
+R11
+R12
+Emp_rom
+Z40 w1686942267
+Z41 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+R2
+R3
+R0
+Z42 8C:/modeltech64_10.6d/examples/VHDLProject/CU/MP_ROM.vhd
+Z43 FC:/modeltech64_10.6d/examples/VHDLProject/CU/MP_ROM.vhd
+l0
+L5
+VXKfmDCc=ijZiR1<YR`d0;0
+!s100 V:K?=<a?_dd2lWfgi>S>;2
+R6
+32
+R16
+!i10b 1
+R17
+Z44 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|C:/modeltech64_10.6d/examples/VHDLProject/CU/MP_ROM.vhd|
+Z45 !s107 C:/modeltech64_10.6d/examples/VHDLProject/CU/MP_ROM.vhd|
+!i113 0
+R11
+R12
+Abehaviour_mp_rom
+R41
+R2
+R3
+DEx4 work 6 mp_rom 0 22 XKfmDCc=ijZiR1<YR`d0;0
+l17
+L13
+Vfc>18`J=mBDYWL6hcA=0O0
+!s100 bDFblNLZ=AFLR4SnOIA290
+R6
+32
+R16
+!i10b 1
+R17
+R44
+R45
+!i113 0
+R11
+R12
+Emux2_1_5
+Z46 w1686942882
+Z47 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z48 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+R2
+R3
+R0
+Z49 8C:/modeltech64_10.6d/examples/VHDLProject/CU/mux2_1_5.vhd
+Z50 FC:/modeltech64_10.6d/examples/VHDLProject/CU/mux2_1_5.vhd
+l0
+L6
+Vi>MIn<Ob:S8<TUVh:aMjl2
+!s100 1zlodS;oRWO7?jCYZe^0Y1
+R6
+32
+R7
+!i10b 1
+R8
+Z51 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|C:/modeltech64_10.6d/examples/VHDLProject/CU/mux2_1_5.vhd|
+Z52 !s107 C:/modeltech64_10.6d/examples/VHDLProject/CU/mux2_1_5.vhd|
+!i113 0
+R11
+R12
+Abehavioral_mux_2_1_5
+R47
+R48
+R2
+R3
+DEx4 work 8 mux2_1_5 0 22 i>MIn<Ob:S8<TUVh:aMjl2
+l16
+L14
+VzJSA`0EXOK8nGRSg;DOm40
+!s100 @=;mFUhNZOnXhCK2Z75k22
+R6
+32
+R7
+!i10b 1
+R8
+R51
+R52
+!i113 0
+R11
+R12
+Eregistercu
+Z53 w1686925846
+R41
+R2
+R3
+R0
+Z54 8C:/modeltech64_10.6d/examples/VHDLProject/CU/Register.vhd
+Z55 FC:/modeltech64_10.6d/examples/VHDLProject/CU/Register.vhd
+l0
+L5
+VM`hgIO7gL:mU:X;H`8;V=2
+!s100 KH_29>:YQ5:BLZ2Ee;1C[0
+R6
+32
+R16
+!i10b 1
+R17
+Z56 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|C:/modeltech64_10.6d/examples/VHDLProject/CU/Register.vhd|
+Z57 !s107 C:/modeltech64_10.6d/examples/VHDLProject/CU/Register.vhd|
+!i113 0
+R11
+R12
+Abehavioral
+R41
+R2
+R3
+DEx4 work 10 registercu 0 22 M`hgIO7gL:mU:X;H`8;V=2
+l16
+L15
+VP;PFKVIbM@il?ROO>0Q9m2
+!s100 <OIEK7iDOE`3ZZdANCDB`3
+R6
+32
+R16
+!i10b 1
+R17
+R56
+R57
+!i113 0
+R11
+R12

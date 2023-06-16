@@ -1,0 +1,77 @@
+C:/modeltech64_10.6d/examples/VHDLProject/CU/CU_TB.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none C:/modeltech64_10.6d/examples/VHDLProject/CU/CU_TB.vhd
+Model Technology ModelSim SE-64 vcom 10.6d Compiler 2018.02 Feb 24 2018
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity ControlUnit_TB
+-- Compiling architecture Behavioral of ControlUnit_TB
+
+} {} {}} C:/modeltech64_10.6d/examples/VHDLProject/CU/Mapper.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none C:/modeltech64_10.6d/examples/VHDLProject/CU/Mapper.vhd
+Model Technology ModelSim SE-64 vcom 10.6d Compiler 2018.02 Feb 24 2018
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity Mapper
+-- Compiling architecture Behavioral of Mapper
+
+} {} {}} C:/modeltech64_10.6d/examples/VHDLProject/CU/Register.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none C:/modeltech64_10.6d/examples/VHDLProject/CU/Register.vhd
+Model Technology ModelSim SE-64 vcom 10.6d Compiler 2018.02 Feb 24 2018
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity RegisterCU
+-- Compiling architecture Behavioral of RegisterCU
+
+} {} {}} C:/modeltech64_10.6d/examples/VHDLProject/CU/MP_ROM.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none C:/modeltech64_10.6d/examples/VHDLProject/CU/MP_ROM.vhd
+Model Technology ModelSim SE-64 vcom 10.6d Compiler 2018.02 Feb 24 2018
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity MP_ROM
+-- Compiling architecture behaviour_MP_ROM of MP_ROM
+
+} {} {}} C:/modeltech64_10.6d/examples/VHDLProject/CU/D_FF_CSR.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none C:/modeltech64_10.6d/examples/VHDLProject/CU/D_FF_CSR.vhd
+Model Technology ModelSim SE-64 vcom 10.6d Compiler 2018.02 Feb 24 2018
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity D_FF
+-- Compiling architecture Behavioral of D_FF
+
+} {} {}} C:/modeltech64_10.6d/examples/VHDLProject/CU/and_not_gate.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none C:/modeltech64_10.6d/examples/VHDLProject/CU/and_not_gate.vhd
+Model Technology ModelSim SE-64 vcom 10.6d Compiler 2018.02 Feb 24 2018
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity AndNotGate
+-- Compiling architecture Behavioral of AndNotGate
+
+} {} {}} C:/modeltech64_10.6d/examples/VHDLProject/CU/CSR.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none C:/modeltech64_10.6d/examples/VHDLProject/CU/CSR.vhd
+Model Technology ModelSim SE-64 vcom 10.6d Compiler 2018.02 Feb 24 2018
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity CSR
+-- Compiling architecture BehavioralRegistre of CSR
+
+} {} {}} C:/modeltech64_10.6d/examples/VHDLProject/CU/CU.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none C:/modeltech64_10.6d/examples/VHDLProject/CU/CU.vhd
+Model Technology ModelSim SE-64 vcom 10.6d Compiler 2018.02 Feb 24 2018
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity ControlUnit
+-- Compiling architecture Behavioral of ControlUnit
+
+} {} {}} C:/modeltech64_10.6d/examples/VHDLProject/CU/mux2_1_5.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none C:/modeltech64_10.6d/examples/VHDLProject/CU/mux2_1_5.vhd
+Model Technology ModelSim SE-64 vcom 10.6d Compiler 2018.02 Feb 24 2018
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity mux2_1_5
+-- Compiling architecture Behavioral_mux_2_1_5 of mux2_1_5
+
+} {} {}}
