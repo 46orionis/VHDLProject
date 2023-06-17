@@ -39,7 +39,6 @@ architecture Behavioral of datapath is
             X: in std_logic_vector(2 downto 0);
             Y: in std_logic_vector(2 downto 0);
             D: in std_logic_vector(15 downto 0);
-
             Q11: out std_logic_vector(15 downto 0);
             Q22: out std_logic_vector(15 downto 0)
 
@@ -81,7 +80,7 @@ architecture Behavioral of datapath is
     	Port (
         	In0 : in std_logic_vector(15 downto 0);
         	IL, Clk : in std_logic;
-        	DR, SA, SB : out std_logic_vector(2 downto 0);
+        	SR, SA, SB : out std_logic_vector(2 downto 0);
         	opcode : out std_logic_vector(4 downto 0)
      		);
      end COMPONENT;
@@ -96,8 +95,8 @@ architecture Behavioral of datapath is
 
     -- Signal declarations
 
-   signal to_RF,bus_d,data_DR_out,instruction_register_out,reg0,reg1,data_in_IR,data_in_DR   : std_logic_vector(15 downto 0);	
-   signal bus_DR,bus_SA,bus_SB,sel_A ,sel_B,dest_sel: std_logic_vector(2 downto 0);
+   signal to_RF,bus_d,data_out_DR,instruction_register_out,reg0,reg1,data_in_IR,data_in_DR   : std_logic_vector(15 downto 0);	
+   signal bus_SR,bus_SA,bus_SB,sel_A ,sel_B,dest_sel: std_logic_vector(2 downto 0);
    signal op_select :std_logic_vector(3 downto 0);
    signal op_code1 :std_logic_vector(4 downto 0);
    signal flag : std_logic;
@@ -105,15 +104,15 @@ architecture Behavioral of datapath is
 begin
 
   
-    
     op_select <= op_code1(3 downto 0);
+    bus_AR_in <= bus_SA & bus_SB;
 
     -- Instantiate the Register_16bit component
     DR : Register_16bit PORT MAP (
         clk => clk,
         Wr => control_word(0),
         d => data_in_DR ,
-        q => data_DR_out
+        q => data_out_DR
 
     );
  
@@ -123,12 +122,26 @@ begin
        Z  => bus_out_AR											 -- get it out to memory externe
 
     );
+     Mux_DRsrc : mux2_16 PORT MAP(
+
+	In0 => data_in,
+	In1 => reg0,
+       	s  => control_word(12),
+       	Z  => data_in_DR 
+    );
+     Mux_RFsrc : mux2_16 PORT MAP(
+
+	In0 => to_RF,
+	In1 => data_out_DR,
+       	s  => control_word(12),
+       	Z  => bus_d
+    );
 
     IR : Instruction_register PORT MAP (
 	In0 => data_in,
         IL => control_word(10),
  	Clk => clk,
-        DR =>	bus_DR,										        --Cables mdely
+        SR =>	bus_SR,										        --Cables mdely
  	SA =>	bus_SA,											--Cables mdely
  	SB =>	bus_SB,											--Cables mdely
         opcode => op_code1					
