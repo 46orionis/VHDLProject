@@ -1,20 +1,30 @@
 library IEEE;  
 use IEEE.STD_LOGIC_1164.ALL;  
 
-entity Register_16bit is
+entity CSR is
   port (
-    clk: in std_logic;
-    Wr: in std_logic;
-    d: in std_logic_vector(15 downto 0);
-    q: out std_logic_vector(15 downto 0)
+	clk: in std_logic;
+	d: in std_logic_vector(15 downto 0);
+	jump: out std_logic_vector(4 downto 0);
+	muxchoice: out std_logic;
+	incremente_choice: out std_logic;
+	MEMw: out std_logic;
+	SRw: out std_logic;
+	DRw: out std_logic;
+	ARw: out std_logic;
+	IRw: out std_logic;
+	Pc_incremente: out std_logic;
+	DRsrc: out std_logic;
+	RFsrc: out std_logic;
+	RFxy: out std_logic
+	
   );
-end entity Register_16bit;
+end entity CSR;
 
-architecture BehavioralRegistre of Register_16bit is
+architecture BehavioralRegistre of CSR is
   component D_FF is
     port (
       clk: in std_logic;
-      Wr: in std_logic;  
       d: in std_logic;
       q: out std_logic
     );
@@ -26,16 +36,14 @@ begin
   -- Instantiate D flip-flops
   FF0: D_FF
     port map (
-      clk => clk,
-      Wr => Wr,
+      clk => clk,    
       d => d(0),
       q => q0
     );
 
   FF1: D_FF
     port map (
-      clk => clk,
-      Wr => Wr,
+      clk => clk,    
       d => d(1),
       q => q1
     );
@@ -43,7 +51,6 @@ begin
   FF2: D_FF
     port map (
       clk => clk,
-      Wr => Wr,
       d => d(2),
       q => q2
     );
@@ -51,14 +58,12 @@ begin
   FF3: D_FF
     port map (
       clk => clk,
-      Wr => Wr,
       d => d(3),
       q => q3
     );
 FF4: D_FF
     port map (
       clk => clk,
-      Wr => Wr,
       d => d(4),
       q => q4
     );
@@ -66,7 +71,6 @@ FF4: D_FF
   FF5: D_FF
     port map (
       clk => clk,
-      Wr => Wr,
       d => d(5),
       q => q5
     );
@@ -74,7 +78,6 @@ FF4: D_FF
   FF6: D_FF
     port map (
       clk => clk,
-      Wr => Wr,
       d => d(6),
       q => q6
     );
@@ -82,7 +85,6 @@ FF4: D_FF
   FF7: D_FF
     port map (
       clk => clk,
-      Wr => Wr,
       d => d(7),
       q => q7
     );
@@ -90,7 +92,6 @@ FF4: D_FF
   FF8: D_FF
     port map (
       clk => clk,
-      Wr => Wr,
       d => d(8),
       q => q8
     );
@@ -98,7 +99,6 @@ FF4: D_FF
   FF9: D_FF
     port map (
       clk => clk,
-      Wr => Wr,
       d => d(9),
       q => q9
     );
@@ -106,7 +106,6 @@ FF4: D_FF
   FF10: D_FF
     port map (
       clk => clk,
-      Wr => Wr,
       d => d(10),
       q => q10
     );
@@ -114,7 +113,6 @@ FF4: D_FF
   FF11: D_FF
     port map (
       clk => clk,
-      Wr => Wr,
       d => d(11),
       q => q11
     );
@@ -122,7 +120,6 @@ FF4: D_FF
   FF12: D_FF
     port map (
       clk => clk,
-      Wr => Wr,
       d => d(12),
       q => q12
     );
@@ -130,7 +127,6 @@ FF4: D_FF
   FF13: D_FF
     port map (
       clk => clk,
-      Wr => Wr,
       d => d(13),
       q => q13
     );
@@ -138,7 +134,6 @@ FF4: D_FF
   FF14: D_FF
     port map (
       clk => clk,
-      Wr => Wr,
       d => d(14),
       q => q14
     );
@@ -146,11 +141,22 @@ FF4: D_FF
   FF15: D_FF
     port map (
       clk => clk,
-      Wr => Wr,
       d => d(15),
       q => q15
     );
 
   -- Output assignment
-  q <= q15 & q14 & q13 & q12 & q11 & q10 & q9 & q8 & q7 & q6 & q5 & q4 & q3 & q2 & q1 & q0;
+  jump <= q4 & q3 & q2 & q1 & q0;
+  muxchoice <= q5 ;
+  incremente_choice <= q6 ;
+
+  ARw <= q7 ;
+  MEMw <= q8 ;
+  Pc_incremente <= q9 ;
+  IRw <= q10 ;
+  DRw <= q11 ;
+  DRsrc <= q12 ;
+  SRw <= q13 ;
+  RFsrc <= q14 ;
+  RFxy <= q15 ;
 end architecture BehavioralRegistre;

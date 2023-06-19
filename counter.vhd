@@ -4,7 +4,7 @@ use ieee.numeric_std.all;
 
 entity counterR is
 generic (
-	constant N : natural :=5
+	constant N : natural :=6
 );
 port(
 	clk:in std_logic;
@@ -27,8 +27,8 @@ signal temp:unsigned (N-1 downto 0) := (others =>'0');
 			
 			
 		end if;
-		if temp="11111" OR reset='1'  then
-			temp<="00000"; 	
+		if temp="111111" OR reset='1'  then
+			temp<="000000"; 	
 					
 		end if;
 	end process;

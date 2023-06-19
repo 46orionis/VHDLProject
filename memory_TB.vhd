@@ -7,27 +7,31 @@ end testMemo;
 
 architecture behave of testMemo is
 Signal clk : std_logic := '0';  
-Signal	adr: std_logic_vector(6 downto 0) := (others => '0');
+Signal	adrData: std_logic_vector(5 downto 0) := (others => '0');
+Signal adrPc: std_logic_vector(5 downto 0);
 Signal  enable: std_logic:= '1';  
-Signal  RW : std_logic:= '0';
+Signal  MEMw : std_logic:= '0';
 Signal  data_in:  std_logic_vector(15 downto 0) := (others => '0');
 Signal  data_out :  std_logic_vector(15 downto 0);
+Signal instruction_out: std_logic_vector(15 downto 0);
   
 component Memory is
-    Port (
+     Port (
 	 
      	clk :in std_logic;  
-	adr:in std_logic_vector(6 downto 0);
+	adrPc:in std_logic_vector(5 downto 0);
+	adrData:in std_logic_vector(5 downto 0);
      	enable: in std_logic;  
-      	RW :in  std_logic;
+      	Memw :in  std_logic;
       	data_in: in std_logic_vector(15 downto 0);
+	instruction_out: out std_logic_vector(15 downto 0);
         data_out : out std_logic_vector(15 downto 0)
     );
 end component; 
  
 Begin
 memo1 : Memory
-port map(clk=>clk,adr=>adr,enable=>enable,RW=>RW,data_in=>data_in,data_out=>data_out);
+port map(clk,adrPC,adrData,enable,MEMw,data_in,instruction_out,data_out);
 
     clk_process : process
     begin	
@@ -41,30 +45,31 @@ port map(clk=>clk,adr=>adr,enable=>enable,RW=>RW,data_in=>data_in,data_out=>data
 
     stimulus_process : process
     begin
+
         wait for 10 ns;  -- Initial wait
 
         -- Test 1: Write data to address 0010
-        RW <= '1';
+        MEMw <= '1';
         data_in <= "1010101011101101";
-        adr <= "0001000";
+        adrPc <= "000001";
         wait for 20 ns;
 
         -- Test 2: Read data from address 0010
-        RW <= '0';
+        MEMw <= '0';
 	--data_out<=memo1(adr);
 
-        wait for 10 ns;
+        wait for 20 ns;
 
         -- Test 3: Write data to address 1111
-        RW <= '1';
-	adr<= "0110010";
+        MEMw <= '1';
+	adrdata<= "000000";
         data_in <= "1011101010111010";
         wait for 20 ns;
 
         -- Test 4: Read data from address 1111
-        RW <= '0';
+        MEMw <= '0';
 	--data_out<=memo1(adr);
-        wait for 10 ns;
+        wait for 20 ns;
 
         -- Add more test cases as needed
 

@@ -37,12 +37,12 @@ begin
   -- Clock process
   clk_process: process
   begin
-    while now < 1000 ns loop  -- Simulate for 1000 ns
+    
       clk_tb <= '0';
       wait for CLK_PERIOD/2;
       clk_tb <= '1';
       wait for CLK_PERIOD/2;
-    end loop;
+    
     wait;
   end process;
   

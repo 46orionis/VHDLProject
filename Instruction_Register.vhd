@@ -6,8 +6,8 @@ use IEEE.STD_LOGIC_UNSIGNED.ALL;
 entity instruction_register is
     Port (
         In0 : in std_logic_vector(15 downto 0);
-        IL, Clk : in std_logic;
-        DR, SA, SB : out std_logic_vector(2 downto 0);
+        IRw, Clk : in std_logic;
+        SR, SA, SB : out std_logic_vector(2 downto 0);
         opcode : out std_logic_vector(4 downto 0);
         M,U : out std_logic
      );
@@ -47,14 +47,14 @@ begin
     mux : mux2_16 PORT MAP (
         In0 => reg_out,
         In1 => In0,
-        s => IL,
+        s => IRw,
         Z => mux_out
     );
     
     U<= reg_out(15);
     M<= reg_out(14);
     opcode <= reg_out(13 downto 9);
-    DR <= reg_out(8 downto 6);
+    SR <= reg_out(8 downto 6);
     SA <= reg_out(5 downto 3);
     SB <= reg_out(2 downto 0);
     

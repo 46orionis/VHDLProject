@@ -2,23 +2,20 @@
 library IEEE;  
 use IEEE.STD_LOGIC_1164.ALL;  
 
-entity D_FF is
+entity D_FF_CSR is
   port (
     clk: in std_logic;
-    Wr: in std_logic;
     d: in std_logic;
     q: out std_logic
   );
-end entity D_FF;
+end entity D_FF_CSR;
 
-architecture Behavioral of D_FF is
+architecture Behavioral of D_FF_CSR is
 begin
-  process (clk, Wr)
+  process (clk)
   begin
     if (rising_edge(clk))then
-    	if (Wr = '1') then	
       		q <= d;    -- Store input value on rising edge of clock
-	end if;
     end if;
   end process;
 end architecture Behavioral;     

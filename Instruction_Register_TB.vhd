@@ -13,8 +13,8 @@ architecture Behavioral of instruction_register_tb is
     
         Port (
         In0 : in std_logic_vector(15 downto 0);
-        IL, Clk : in std_logic;
-        DR, SA, SB : out std_logic_vector(2 downto 0);
+        IRw, Clk : in std_logic;
+        SR, SA, SB : out std_logic_vector(2 downto 0);
         opcode : out std_logic_vector(4 downto 0);
         M,U : out std_logic
      );
@@ -30,9 +30,9 @@ architecture Behavioral of instruction_register_tb is
   
   -- Signals
   signal In0_tb : std_logic_vector(15 downto 0) := (others => '0'); -- Test bench input signal (In0)
-  signal IL_tb : std_logic := '0'; -- Test bench input signal (IL)
+  signal IRw_tb : std_logic := '0'; -- Test bench input signal (IRw)
   signal Clk_tb : std_logic := '0'; -- Test bench clock signal (Clk)
-  signal DR_tb, SA_tb, SB_tb : std_logic_vector(2 downto 0); -- Test bench output signals (DR, SA, SB)
+  signal SR_tb, SA_tb, SB_tb : std_logic_vector(2 downto 0); -- Test bench output signals (SR, SA, SB)
   signal opcode_tb : std_logic_vector(4 downto 0); -- Test bench output signal (opcode)
   signal M_tb, U_tb : std_logic; -- Test bench output signals (M, U)
   
@@ -40,9 +40,9 @@ begin
   -- Instantiate instruction_register component
   uut: instruction_register port map (
     In0 => In0_tb,
-    IL => IL_tb,
+    IRw => IRw_tb,
     Clk => Clk_tb,
-    DR => DR_tb,
+    SR => SR_tb,
     SA => SA_tb,
     SB => SB_tb,
     opcode => opcode_tb,
@@ -65,14 +65,14 @@ begin
   -- Stimulus process
   stimulus_process: process
   begin
-    -- Test case 1: Load input In0 into the register, IL = '0'
+    -- Test case 1: Load input In0 into the register, IRw = '0'
     In0_tb <= "1010101010101010";
-    IL_tb <= '0';
+    IRw_tb <= '0';
     wait for CLK_PERIOD;
     
-    -- Test case 2: Load input In0 into the register, IL = '1'
+    -- Test case 2: Load input In0 into the register, IRw = '1'
     In0_tb <= "0011001100110011";
-    IL_tb <= '1';
+    IRw_tb <= '1';
     wait for CLK_PERIOD;
     
     -- Add more test cases if needed

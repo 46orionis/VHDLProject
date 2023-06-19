@@ -2,10 +2,10 @@ library ieee;
 use ieee.std_logic_1164.all;
 use ieee.numeric_std.all;
 
-entity testMemo is 
-end testMemo;
+entity testMemorom is 
+end testMemorom;
 
-architecture behave of testMemo is
+architecture behave of testMemorom is
 Signal clk : std_logic := '0';  
 Signal	adr: std_logic_vector(5 downto 0) := (others => '0');
 Signal  enable: std_logic:= '1';  
